@@ -88,15 +88,15 @@ do {
 function saludar(nombre) {
     console.log("Hola " + nombre);
 }
-  saludar("Juan"); // imprimiría "Hola Juan" en la consola
+  saludar("andres"); // imprimiría "Hola Andres" en la consola
 
 // Objetos
 let persona = {
     nombre: "Andres",
     edad: 25
 };
-  console.log(persona.nombre); // imprimiría "Juan" en la consola
+  console.log(persona.nombre); // imprimiría "Andres" en la consola
 
   // Arrays
 let frutas = ["manzana", "naranja", "mango"];
-  console.log(frutas[1]); // imprimiría "banana" en la consola
+  console.log(frutas[1]); // imprimiría "naranja" en la consola
